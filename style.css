@@ -8,10 +8,12 @@ body {
   margin: auto;
   width: 1080px;
   display: grid;
-  grid-template-columns: 32% 32% 32%;
+  margin-top: 20px;
+  grid-template-columns: auto auto auto;
 }
 .container div {
-  margin: 15px 15px;
+  /* margin: 15px 15px; */
+  gap: 30px;
 }
 .score {
   /* padding: 15px; */
@@ -20,7 +22,7 @@ body {
 }
 .heroes {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
 }
 .hero,
 .villainnn {
@@ -41,9 +43,14 @@ body {
 
 .villains {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
 }
 .footer {
-  margin-left: 80px;
+  /* margin-left: 80px; */
   font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+#ctr{
+  grid-column-start: 3;
 }
